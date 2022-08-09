@@ -40,5 +40,7 @@ body{
 }
 
 .nav__link--active:hover{
+    text-shadow: 4px 4px 4px white;
     color: darkmagenta;
+    transition: color 2s;
 }
