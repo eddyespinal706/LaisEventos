@@ -10,7 +10,7 @@ body{
 
 .nav{
     background: pink;
-    height: 100px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -43,4 +43,32 @@ body{
     text-shadow: 4px 4px 4px white;
     color: darkmagenta;
     transition: color 2s;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    background-image: url('../img/chef_hat.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container_display{
+    height: 150px;
+    width: 150px;
+}
+
+.container__display__heading{
+    color: darkmagenta;
+}
+
+.container__display__image{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    border: magenta solid 2px;
 }
