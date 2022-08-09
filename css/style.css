@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav{
+    background: pink;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    word-spacing: 10px;
+}
+
+.nav__logo{
+    height: 100%;
+    background: white;
+}
+
+.nav__img{
+    height: 100%;
+}
+
+.nav__links{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav__link{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+
+.nav__link--active:hover{
+    color: darkmagenta;
+}
