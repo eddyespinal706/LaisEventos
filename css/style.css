@@ -39,31 +39,71 @@ body{
     text-decoration: none;
 }
 
-.nav__link--active:hover{
+.nav__link:hover{
     text-shadow: 4px 4px 4px white;
     color: darkmagenta;
     transition: color 2s;
 }
 
-.container{
+.nav__link--active{
+    color: darkmagenta;
+    text-shadow: 4px 4px 4px white;
+}
+
+.nav__link--active:hover{
+    color: white;
+    text-shadow: 4px 4px 4px darkmagenta;
+}
+
+.article{
+    padding-top: 20px;
+    color: darkmagenta;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+}
+
+.article__logo{
+    height: 300px;
+    width: 300px;
+}
+
+.article__paragraph{
     padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.article__images{
+    display: inline;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+}
+
+.article__img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    border: magenta solid 2px;
+}
+
+.container{
     background-image: url('../img/chef_hat.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-}
-
-.container_display{
-    height: 150px;
-    width: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    color: darkmagenta;
 }
 
 .container__display__heading{
     color: darkmagenta;
+    margin-top: 10px;
 }
 
 .container__display__image{
