@@ -88,6 +88,28 @@ body{
     border: magenta solid 2px;
 }
 
+.article__contacts{
+    list-style-type: none;
+}
+
+.article__contact__link{
+    text-decoration: none;
+    font-size: 25px;
+    color: darkmagenta;
+    font-weight: bold;
+}
+
+.article__contact__link:hover{
+    text-shadow: 4px 4px 4px darkmagenta;
+    color: lightpink;
+    transition: color 2s;
+}
+
+.article__contacts__icon{
+    height: 50px;
+    width: 50px;
+}
+
 .container{
     background-image: url('../img/chef_hat.png');
     background-repeat: no-repeat;
